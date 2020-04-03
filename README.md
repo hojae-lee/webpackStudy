@@ -2,7 +2,7 @@
 
 * npm init
 * npm install --save-dev webpack wepack-cli
-* package.json에 npm 스크립트 추가 하기 <br/>
+* package.json에 npm 스크립트 추가 하기
 
 ```js
 {
@@ -25,6 +25,7 @@ Webpack이란
 다수의 자바스크립트 파일을 로드해야 하는 번거로움도 사라진다.
 Webpack이 자바스크립트 파일을 번들링하기 전에 Babel을 로드하여 ES6+ 코드를 ES5 코드로
 트랜스파일링하는 작업을 실행다로고 설정할 것이다.
+
 ```js
 const path = require('path');
 
