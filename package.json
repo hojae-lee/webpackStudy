@@ -1,0 +1,30 @@
+{
+  "name": "webpackstudy",
+  "version": "1.0.0",
+  "description": "* npm init\r * npm install --save-dev webpack wepack-cli\r * package.json에 npm 스크립트 추가 하기",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=none",
+    "bundle": "webpack --mode=development",
+    "production": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hojae-lee/webpackStudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hojae-lee/webpackStudy/issues"
+  },
+  "homepage": "https://github.com/hojae-lee/webpackStudy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "wepack-cli": "0.0.1-security"
+  }
+}

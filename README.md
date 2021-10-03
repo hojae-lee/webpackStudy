@@ -3,6 +3,7 @@
 * npm init
 * npm install --save-dev webpack wepack-cli
 * package.json에 npm 스크립트 추가 하기
+* bable-loader 오류 발생시 npm install -D babel-loader @babel/core @babel/preset-env webpack 설치해줍니다.
 
 ```js
 {
@@ -19,11 +20,11 @@
 
 3. npm, yarn run production // 압축, 난독화
 
-Webpack이란
+Webpack 이란
 의존관계에 있는 모듈들을 하나의 자바스크립트 파일로 번들링하는 모듈 번들러이다.
 다수의 자바스크립트 파일을 하나의 파일로 번들링하므로 html 파일에서 script 태그로
 다수의 자바스크립트 파일을 로드해야 하는 번거로움도 사라진다.
-Webpack이 자바스크립트 파일을 번들링하기 전에 Babel을 로드하여 ES6+ 코드를 ES5 코드로
+Webpack 이 자바스크립트 파일을 번들링하기 전에 Babel을 로드하여 ES6+ 코드를 ES5 코드로
 트랜스파일링하는 작업을 실행다로고 설정할 것이다.
 
 ```js
